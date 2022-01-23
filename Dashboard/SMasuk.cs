@@ -353,10 +353,7 @@ namespace Dashboard
 
         }
 
-        private void btnCetak_Click(object sender, EventArgs e)
-        {
-             ReportViewer rpt = new ReportViewer();
-             rpt.Show();
-        }
+
+
     }
 }
