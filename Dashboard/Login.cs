@@ -24,7 +24,7 @@ namespace Dashboard
             {
                 if (txtEmail.Text.Length == 0 || txtPassword.Text.Length == 0)
                 {
-                    MessageBox.Show("Email atau Password anda salah!");
+                    MessageBox.Show("Email atau Password tidak boleh kosong!");
                 }
                 else
                 {
@@ -42,7 +42,7 @@ namespace Dashboard
                     }
                     else
                     {
-                        MessageBox.Show("Username atau Password anda salah!!!");
+                        MessageBox.Show("Email atau Password anda salah!!!");
                     }
                     Koneksi.Conn.Close();
                 }
@@ -62,5 +62,6 @@ namespace Dashboard
         {
             
         }
+
     }
 }
