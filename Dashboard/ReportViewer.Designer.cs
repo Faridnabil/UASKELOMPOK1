@@ -36,12 +36,12 @@ namespace Dashboard
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(340, 226);
+            this.label1.Location = new System.Drawing.Point(320, 187);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 39);
+            this.label1.Size = new System.Drawing.Size(202, 39);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Tah Farid";
+            this.label1.Text = "Tah Farid32";
             // 
             // ReportViewer
             // 
@@ -49,7 +49,7 @@ namespace Dashboard
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(905, 521);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ReportViewer";
             this.Text = "ReportViewer";
             this.ResumeLayout(false);
