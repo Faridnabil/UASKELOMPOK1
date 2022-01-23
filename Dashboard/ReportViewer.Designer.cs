@@ -29,17 +29,10 @@ namespace Dashboard
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // ReportViewer
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1207, 641);
-            this.Name = "ReportViewer";
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "ReportViewer";
-            this.ResumeLayout(false);
-
         }
 
         #endregion
