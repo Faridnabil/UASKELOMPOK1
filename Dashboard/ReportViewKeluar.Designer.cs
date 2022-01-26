@@ -1,7 +1,7 @@
 ﻿
 namespace Dashboard
 {
-    partial class ReportViewer
+    partial class ReportViewKeluar
     {
         /// <summary>
         /// Required designer variable.
@@ -30,28 +30,30 @@ namespace Dashboard
         private void InitializeComponent()
         {
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.SuratKeluar = new SuratKeluar();
             this.SuspendLayout();
             // 
             // crystalReportViewer1
             // 
-            this.crystalReportViewer1.ActiveViewIndex = -1;
+            this.crystalReportViewer1.ActiveViewIndex = 0;
             this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.crystalReportViewer1.Location = new System.Drawing.Point(0, 0);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
+            this.crystalReportViewer1.ReportSource = this.SuratKeluar;
             this.crystalReportViewer1.Size = new System.Drawing.Size(1207, 641);
             this.crystalReportViewer1.TabIndex = 0;
+            this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
-            // ReportViewer
+            // ReportViewKeluar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1207, 641);
             this.Controls.Add(this.crystalReportViewer1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "ReportViewer";
-            this.Text = "ReportViewer";
+            this.Name = "ReportViewKeluar";
+            this.Text = "ReportViewKeluar";
             this.ResumeLayout(false);
 
         }
@@ -59,5 +61,6 @@ namespace Dashboard
         #endregion
 
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
+        private SuratKeluar SuratKeluar;
     }
 }

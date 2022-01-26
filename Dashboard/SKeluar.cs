@@ -347,6 +347,10 @@ namespace Dashboard
 
         }
 
-      
+        private void btnCetak_Click(object sender, EventArgs e)
+        {
+            ReportViewKeluar report = new ReportViewKeluar();
+            report.Show();
+        }
     }
 }

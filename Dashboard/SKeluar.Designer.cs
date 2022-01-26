@@ -90,9 +90,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(873, 30);
+            this.button1.Location = new System.Drawing.Point(1164, 37);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 25);
+            this.button1.Size = new System.Drawing.Size(33, 31);
             this.button1.TabIndex = 12;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = true;
@@ -103,9 +104,10 @@
             this.lbltitle.AutoSize = true;
             this.lbltitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(161)))), ((int)(((byte)(176)))));
-            this.lbltitle.Location = new System.Drawing.Point(197, 23);
+            this.lbltitle.Location = new System.Drawing.Point(263, 28);
+            this.lbltitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltitle.Name = "lbltitle";
-            this.lbltitle.Size = new System.Drawing.Size(185, 32);
+            this.lbltitle.Size = new System.Drawing.Size(221, 39);
             this.lbltitle.TabIndex = 10;
             this.lbltitle.Text = "Surat Keluar";
             // 
@@ -121,16 +123,18 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(186, 559);
+            this.panel1.Size = new System.Drawing.Size(248, 688);
             this.panel1.TabIndex = 0;
             // 
             // pnlNav
             // 
             this.pnlNav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.pnlNav.Location = new System.Drawing.Point(0, 192);
+            this.pnlNav.Location = new System.Drawing.Point(0, 236);
+            this.pnlNav.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlNav.Name = "pnlNav";
-            this.pnlNav.Size = new System.Drawing.Size(3, 160);
+            this.pnlNav.Size = new System.Drawing.Size(4, 197);
             this.pnlNav.TabIndex = 4;
             // 
             // btnJenis
@@ -141,9 +145,10 @@
             this.btnJenis.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJenis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.btnJenis.Image = ((System.Drawing.Image)(resources.GetObject("btnJenis.Image")));
-            this.btnJenis.Location = new System.Drawing.Point(0, 322);
+            this.btnJenis.Location = new System.Drawing.Point(0, 398);
+            this.btnJenis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnJenis.Name = "btnJenis";
-            this.btnJenis.Size = new System.Drawing.Size(186, 42);
+            this.btnJenis.Size = new System.Drawing.Size(248, 52);
             this.btnJenis.TabIndex = 3;
             this.btnJenis.Text = "  Jenis Surat";
             this.btnJenis.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -159,9 +164,10 @@
             this.btnKeluar.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKeluar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.btnKeluar.Image = ((System.Drawing.Image)(resources.GetObject("btnKeluar.Image")));
-            this.btnKeluar.Location = new System.Drawing.Point(0, 280);
+            this.btnKeluar.Location = new System.Drawing.Point(0, 346);
+            this.btnKeluar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnKeluar.Name = "btnKeluar";
-            this.btnKeluar.Size = new System.Drawing.Size(186, 42);
+            this.btnKeluar.Size = new System.Drawing.Size(248, 52);
             this.btnKeluar.TabIndex = 1;
             this.btnKeluar.Text = " Surat Keluar";
             this.btnKeluar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -177,9 +183,10 @@
             this.btnMasuk.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMasuk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.btnMasuk.Image = ((System.Drawing.Image)(resources.GetObject("btnMasuk.Image")));
-            this.btnMasuk.Location = new System.Drawing.Point(0, 238);
+            this.btnMasuk.Location = new System.Drawing.Point(0, 294);
+            this.btnMasuk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMasuk.Name = "btnMasuk";
-            this.btnMasuk.Size = new System.Drawing.Size(186, 42);
+            this.btnMasuk.Size = new System.Drawing.Size(248, 52);
             this.btnMasuk.TabIndex = 1;
             this.btnMasuk.Text = " Surat Masuk";
             this.btnMasuk.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -195,9 +202,10 @@
             this.btnUser.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.btnUser.Image = ((System.Drawing.Image)(resources.GetObject("btnUser.Image")));
-            this.btnUser.Location = new System.Drawing.Point(0, 196);
+            this.btnUser.Location = new System.Drawing.Point(0, 242);
+            this.btnUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUser.Name = "btnUser";
-            this.btnUser.Size = new System.Drawing.Size(186, 42);
+            this.btnUser.Size = new System.Drawing.Size(248, 52);
             this.btnUser.TabIndex = 1;
             this.btnUser.Text = "  Master User";
             this.btnUser.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -213,9 +221,10 @@
             this.btnDashbord.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashbord.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.btnDashbord.Image = ((System.Drawing.Image)(resources.GetObject("btnDashbord.Image")));
-            this.btnDashbord.Location = new System.Drawing.Point(0, 154);
+            this.btnDashbord.Location = new System.Drawing.Point(0, 190);
+            this.btnDashbord.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDashbord.Name = "btnDashbord";
-            this.btnDashbord.Size = new System.Drawing.Size(186, 42);
+            this.btnDashbord.Size = new System.Drawing.Size(248, 52);
             this.btnDashbord.TabIndex = 1;
             this.btnDashbord.Text = "  Dashboard";
             this.btnDashbord.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -230,8 +239,9 @@
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(186, 154);
+            this.panel2.Size = new System.Drawing.Size(248, 190);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -240,9 +250,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(161)))), ((int)(((byte)(176)))));
-            this.label2.Location = new System.Drawing.Point(22, 120);
+            this.label2.Location = new System.Drawing.Point(29, 148);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 12);
+            this.label2.Size = new System.Drawing.Size(111, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "Mengelola surat";
             // 
@@ -251,18 +262,20 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label1.Location = new System.Drawing.Point(22, 98);
+            this.label1.Location = new System.Drawing.Point(29, 121);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 16);
+            this.label1.Size = new System.Drawing.Size(73, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Suratku";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(22, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(29, 28);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(63, 63);
+            this.pictureBox1.Size = new System.Drawing.Size(84, 78);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -296,7 +309,8 @@
             this.txtNomor.IconRight = null;
             this.txtNomor.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtNomor.Lines = new string[0];
-            this.txtNomor.Location = new System.Drawing.Point(253, 86);
+            this.txtNomor.Location = new System.Drawing.Point(337, 106);
+            this.txtNomor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNomor.MaxLength = 32767;
             this.txtNomor.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtNomor.Modified = false;
@@ -322,7 +336,7 @@
             stateProperties4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtNomor.OnIdleState = stateProperties4;
-            this.txtNomor.Padding = new System.Windows.Forms.Padding(3);
+            this.txtNomor.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNomor.PasswordChar = '\0';
             this.txtNomor.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtNomor.PlaceholderText = "Nomor Surat";
@@ -332,7 +346,7 @@
             this.txtNomor.SelectionLength = 0;
             this.txtNomor.SelectionStart = 0;
             this.txtNomor.ShortcutsEnabled = true;
-            this.txtNomor.Size = new System.Drawing.Size(296, 39);
+            this.txtNomor.Size = new System.Drawing.Size(395, 48);
             this.txtNomor.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtNomor.TabIndex = 40;
             this.txtNomor.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -372,7 +386,8 @@
             this.txtTujuan.IconRight = null;
             this.txtTujuan.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTujuan.Lines = new string[0];
-            this.txtTujuan.Location = new System.Drawing.Point(558, 86);
+            this.txtTujuan.Location = new System.Drawing.Point(744, 106);
+            this.txtTujuan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTujuan.MaxLength = 32767;
             this.txtTujuan.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtTujuan.Modified = false;
@@ -398,7 +413,7 @@
             stateProperties8.ForeColor = System.Drawing.SystemColors.ButtonFace;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtTujuan.OnIdleState = stateProperties8;
-            this.txtTujuan.Padding = new System.Windows.Forms.Padding(3);
+            this.txtTujuan.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTujuan.PasswordChar = '\0';
             this.txtTujuan.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtTujuan.PlaceholderText = "Tujuan";
@@ -408,7 +423,7 @@
             this.txtTujuan.SelectionLength = 0;
             this.txtTujuan.SelectionStart = 0;
             this.txtTujuan.ShortcutsEnabled = true;
-            this.txtTujuan.Size = new System.Drawing.Size(340, 39);
+            this.txtTujuan.Size = new System.Drawing.Size(453, 48);
             this.txtTujuan.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtTujuan.TabIndex = 47;
             this.txtTujuan.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -448,7 +463,8 @@
             this.txtSearch.IconRight = null;
             this.txtSearch.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSearch.Lines = new string[0];
-            this.txtSearch.Location = new System.Drawing.Point(677, 260);
+            this.txtSearch.Location = new System.Drawing.Point(903, 320);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSearch.MaxLength = 32767;
             this.txtSearch.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtSearch.Modified = false;
@@ -474,7 +490,7 @@
             stateProperties12.ForeColor = System.Drawing.SystemColors.ButtonFace;
             stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtSearch.OnIdleState = stateProperties12;
-            this.txtSearch.Padding = new System.Windows.Forms.Padding(3);
+            this.txtSearch.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSearch.PasswordChar = '\0';
             this.txtSearch.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtSearch.PlaceholderText = "Search nomor surat";
@@ -484,7 +500,7 @@
             this.txtSearch.SelectionLength = 0;
             this.txtSearch.SelectionStart = 0;
             this.txtSearch.ShortcutsEnabled = true;
-            this.txtSearch.Size = new System.Drawing.Size(221, 31);
+            this.txtSearch.Size = new System.Drawing.Size(295, 38);
             this.txtSearch.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtSearch.TabIndex = 49;
             this.txtSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -544,7 +560,8 @@
             this.btnTambah.IdleIconRightImage = null;
             this.btnTambah.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnTambah.IndicateFocus = false;
-            this.btnTambah.Location = new System.Drawing.Point(203, 196);
+            this.btnTambah.Location = new System.Drawing.Point(271, 241);
+            this.btnTambah.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnTambah.OnDisabledState.BorderRadius = 3;
@@ -578,7 +595,7 @@
             this.btnTambah.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnTambah.OnPressedState.IconLeftImage = null;
             this.btnTambah.OnPressedState.IconRightImage = null;
-            this.btnTambah.Size = new System.Drawing.Size(82, 32);
+            this.btnTambah.Size = new System.Drawing.Size(109, 39);
             this.btnTambah.TabIndex = 50;
             this.btnTambah.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnTambah.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -635,7 +652,8 @@
             this.btnEdit.IdleIconRightImage = null;
             this.btnEdit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnEdit.IndicateFocus = false;
-            this.btnEdit.Location = new System.Drawing.Point(291, 196);
+            this.btnEdit.Location = new System.Drawing.Point(388, 241);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnEdit.OnDisabledState.BorderRadius = 3;
@@ -669,7 +687,7 @@
             this.btnEdit.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnEdit.OnPressedState.IconLeftImage = null;
             this.btnEdit.OnPressedState.IconRightImage = null;
-            this.btnEdit.Size = new System.Drawing.Size(82, 32);
+            this.btnEdit.Size = new System.Drawing.Size(109, 39);
             this.btnEdit.TabIndex = 51;
             this.btnEdit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnEdit.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -726,7 +744,8 @@
             this.btnHapus.IdleIconRightImage = null;
             this.btnHapus.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnHapus.IndicateFocus = false;
-            this.btnHapus.Location = new System.Drawing.Point(379, 196);
+            this.btnHapus.Location = new System.Drawing.Point(505, 241);
+            this.btnHapus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnHapus.OnDisabledState.BorderRadius = 3;
@@ -760,7 +779,7 @@
             this.btnHapus.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnHapus.OnPressedState.IconLeftImage = null;
             this.btnHapus.OnPressedState.IconRightImage = null;
-            this.btnHapus.Size = new System.Drawing.Size(82, 32);
+            this.btnHapus.Size = new System.Drawing.Size(109, 39);
             this.btnHapus.TabIndex = 52;
             this.btnHapus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnHapus.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -817,7 +836,8 @@
             this.btnRefresh.IdleIconRightImage = null;
             this.btnRefresh.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnRefresh.IndicateFocus = false;
-            this.btnRefresh.Location = new System.Drawing.Point(467, 196);
+            this.btnRefresh.Location = new System.Drawing.Point(623, 241);
+            this.btnRefresh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnRefresh.OnDisabledState.BorderRadius = 3;
@@ -851,7 +871,7 @@
             this.btnRefresh.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnRefresh.OnPressedState.IconLeftImage = null;
             this.btnRefresh.OnPressedState.IconRightImage = null;
-            this.btnRefresh.Size = new System.Drawing.Size(82, 32);
+            this.btnRefresh.Size = new System.Drawing.Size(109, 39);
             this.btnRefresh.TabIndex = 53;
             this.btnRefresh.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnRefresh.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -911,12 +931,14 @@
             this.dtGrid.HeaderBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.dtGrid.HeaderBgColor = System.Drawing.Color.Empty;
             this.dtGrid.HeaderForeColor = System.Drawing.Color.WhiteSmoke;
-            this.dtGrid.Location = new System.Drawing.Point(203, 303);
+            this.dtGrid.Location = new System.Drawing.Point(271, 373);
+            this.dtGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtGrid.Name = "dtGrid";
             this.dtGrid.RowHeadersVisible = false;
+            this.dtGrid.RowHeadersWidth = 51;
             this.dtGrid.RowTemplate.Height = 40;
             this.dtGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtGrid.Size = new System.Drawing.Size(695, 223);
+            this.dtGrid.Size = new System.Drawing.Size(927, 274);
             this.dtGrid.TabIndex = 54;
             this.dtGrid.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             this.dtGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGrid_CellClick);
@@ -941,10 +963,11 @@
             this.date.IconColor = System.Drawing.Color.Gray;
             this.date.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
             this.date.LeftTextMargin = 5;
-            this.date.Location = new System.Drawing.Point(204, 141);
+            this.date.Location = new System.Drawing.Point(272, 174);
+            this.date.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.date.MinimumSize = new System.Drawing.Size(4, 32);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(339, 32);
+            this.date.Size = new System.Drawing.Size(451, 32);
             this.date.TabIndex = 58;
             // 
             // DropdownPerihal
@@ -983,9 +1006,10 @@
             this.DropdownPerihal.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
             this.DropdownPerihal.ItemHighLightForeColor = System.Drawing.Color.White;
             this.DropdownPerihal.ItemTopMargin = 3;
-            this.DropdownPerihal.Location = new System.Drawing.Point(558, 141);
+            this.DropdownPerihal.Location = new System.Drawing.Point(744, 174);
+            this.DropdownPerihal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DropdownPerihal.Name = "DropdownPerihal";
-            this.DropdownPerihal.Size = new System.Drawing.Size(340, 32);
+            this.DropdownPerihal.Size = new System.Drawing.Size(452, 32);
             this.DropdownPerihal.TabIndex = 64;
             this.DropdownPerihal.Text = "Perihal";
             this.DropdownPerihal.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -1021,7 +1045,8 @@
             this.txtId.IconRight = null;
             this.txtId.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtId.Lines = new string[0];
-            this.txtId.Location = new System.Drawing.Point(203, 86);
+            this.txtId.Location = new System.Drawing.Point(271, 106);
+            this.txtId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtId.MaxLength = 32767;
             this.txtId.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtId.Modified = false;
@@ -1047,7 +1072,7 @@
             stateProperties16.ForeColor = System.Drawing.Color.Silver;
             stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtId.OnIdleState = stateProperties16;
-            this.txtId.Padding = new System.Windows.Forms.Padding(3);
+            this.txtId.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtId.PasswordChar = '\0';
             this.txtId.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtId.PlaceholderText = "Id";
@@ -1057,7 +1082,7 @@
             this.txtId.SelectionLength = 0;
             this.txtId.SelectionStart = 0;
             this.txtId.ShortcutsEnabled = true;
-            this.txtId.Size = new System.Drawing.Size(39, 39);
+            this.txtId.Size = new System.Drawing.Size(52, 48);
             this.txtId.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtId.TabIndex = 63;
             this.txtId.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1116,7 +1141,8 @@
             this.btnCetak.IdleIconRightImage = null;
             this.btnCetak.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnCetak.IndicateFocus = false;
-            this.btnCetak.Location = new System.Drawing.Point(203, 260);
+            this.btnCetak.Location = new System.Drawing.Point(271, 320);
+            this.btnCetak.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCetak.Name = "btnCetak";
             this.btnCetak.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnCetak.OnDisabledState.BorderRadius = 3;
@@ -1150,20 +1176,21 @@
             this.btnCetak.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnCetak.OnPressedState.IconLeftImage = null;
             this.btnCetak.OnPressedState.IconRightImage = null;
-            this.btnCetak.Size = new System.Drawing.Size(82, 31);
+            this.btnCetak.Size = new System.Drawing.Size(109, 38);
             this.btnCetak.TabIndex = 65;
             this.btnCetak.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnCetak.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnCetak.TextMarginLeft = 0;
             this.btnCetak.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnCetak.UseDefaultRadiusAndThickness = true;
+            this.btnCetak.Click += new System.EventHandler(this.btnCetak_Click);
             // 
             // SKeluar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(919, 559);
+            this.ClientSize = new System.Drawing.Size(1225, 688);
             this.Controls.Add(this.btnCetak);
             this.Controls.Add(this.DropdownPerihal);
             this.Controls.Add(this.txtId);
@@ -1180,6 +1207,7 @@
             this.Controls.Add(this.lbltitle);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SKeluar";
             this.Opacity = 0.97D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Dashboard
 {
-    public partial class ReportViewer : Form
+    public partial class ReportViewKeluar : Form
     {
-        public ReportViewer()
+        public ReportViewKeluar()
         {
             InitializeComponent();
         }
