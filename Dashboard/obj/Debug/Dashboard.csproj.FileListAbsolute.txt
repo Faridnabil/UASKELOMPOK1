@@ -377,7 +377,6 @@ C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bi
 C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\WinFormAnimation.xml
 C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\obj\Debug\Dashboard.csprojAssemblyReference.cache
 C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\obj\Debug\Dashboard.Login.resources
-C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\obj\Debug\Dashboard.ReportViewer.resources
 C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\obj\Debug\Dashboard.SKeluar.resources
 C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\obj\Debug\Dashboard.SMasuk.resources
 C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\obj\Debug\Dashboard.MasterUser.resources
@@ -500,3 +499,24 @@ C:\Users\farid\OneDrive\Dokumen\GitHub\ArsipSuratC-\Dashboard\bin\Debug\Bunifu.U
 C:\Users\farid\OneDrive\Dokumen\GitHub\ArsipSuratC-\Dashboard\bin\Debug\CircularProgressBar.xml
 C:\Users\farid\OneDrive\Dokumen\GitHub\ArsipSuratC-\Dashboard\bin\Debug\WinFormAnimation.xml
 C:\Users\farid\OneDrive\Dokumen\GitHub\ArsipSuratC-\Dashboard\obj\Debug\Dashboard.csproj.CopyComplete
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\FlashControlV71.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\bin\Debug\stdole.dll
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\obj\Debug\Dashboard.ReportViewKeluar.resources
+C:\Users\Muhamad Azis\Documents\Visual Studio 2019\ArsipSuratC#-UAS\Dashboard\obj\Debug\Dashboard.ReportViewMasuk.resources
