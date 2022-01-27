@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboard", "Dashboard\Dashboard.csproj", "{7AE9F65A-B445-4C1B-9EA8-137BD05BB86D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UASKELOMPOK1", "Dashboard\UASKELOMPOK1.csproj", "{7AE9F65A-B445-4C1B-9EA8-137BD05BB86D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D62BB1D-D445-4963-93EC-E4BEF71BE6A7}
 	EndGlobalSection
 EndGlobal
